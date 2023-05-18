@@ -2,14 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `gh-pages`
-This project uses gh-pages for preview.
-Update the package.json file with the correct url to the repository for Github Pages to run properly.
-
-### `React-Router`
-This project uses React-Router.
-Utilize a HashRouter for prototyping or previewing on Github Pages. Github Pages does not support history. React-Router does not recommend the use of a HashRouter unless it is necessary (i.e. for prototyping on Github Pages).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -21,8 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-This command will work only if you are running locally on a device.
 
 ### `npm test`
 
@@ -38,9 +28,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run deploy`
-Deployment is needed to run on Github Pages. This is important to integrate with the dependency gh-pages and run ReactJS apps on Github Pages.
 
 ### `npm run eject`
 
