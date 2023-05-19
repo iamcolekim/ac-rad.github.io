@@ -5,5 +5,6 @@ import Header from './header-banner/index.js';
 //pages
 import Landing from './pages/landing/index.js';
 import About from './pages/about/index.js';
+import Error from './pages/error/index.js';
 
-export { Footer, Header, Landing, About };
+export { Footer, Header, Landing, About, Error };

@@ -8,7 +8,9 @@ import Teams from './teams';
 
 const Landing = () => {
     return (
-        <main>
+        <main 
+            className = "antialiased"
+        >
             <h1>Landing</h1>
             <ProjInfo />
             <Missions />
