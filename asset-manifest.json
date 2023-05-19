@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/ac-rad.github.io/static/css/main.aa21ccc6.css",
-    "main.js": "/ac-rad.github.io/static/js/main.10b695ac.js",
+    "main.css": "/ac-rad.github.io/static/css/main.c25e583b.css",
+    "main.js": "/ac-rad.github.io/static/js/main.c559760b.js",
     "static/js/787.03647518.chunk.js": "/ac-rad.github.io/static/js/787.03647518.chunk.js",
-    "static/media/logo.svg": "/ac-rad.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ac-rad.github.io/index.html",
-    "main.aa21ccc6.css.map": "/ac-rad.github.io/static/css/main.aa21ccc6.css.map",
-    "main.10b695ac.js.map": "/ac-rad.github.io/static/js/main.10b695ac.js.map",
+    "main.c25e583b.css.map": "/ac-rad.github.io/static/css/main.c25e583b.css.map",
+    "main.c559760b.js.map": "/ac-rad.github.io/static/js/main.c559760b.js.map",
     "787.03647518.chunk.js.map": "/ac-rad.github.io/static/js/787.03647518.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa21ccc6.css",
-    "static/js/main.10b695ac.js"
+    "static/css/main.c25e583b.css",
+    "static/js/main.c559760b.js"
   ]
 }
