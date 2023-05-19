@@ -1,3 +1,4 @@
+@import-sanitize;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
