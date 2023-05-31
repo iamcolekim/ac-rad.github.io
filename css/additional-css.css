@@ -1,0 +1,8 @@
+.anchored-div,
+.ancored-div:focus-within {
+    scroll-behavior: smooth !important;
+    -webkit-scroll-behavior: smooth !important;
+    -moz-scroll-behavior: smooth !important;
+    -o-scroll-behavior: smooth !important;
+    -ms-scroll-behavior: smooth !important;
+}
