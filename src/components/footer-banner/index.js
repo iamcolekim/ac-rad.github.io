@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <footer>
             <section>footer</section>
-            <NavButton linkTo="/">footer button</NavButton>
+            <NavButton linkTo="/about">footer button</NavButton>
         </footer>
     );
 };

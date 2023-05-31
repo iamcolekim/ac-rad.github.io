@@ -1,5 +1,7 @@
 import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { useState } from 'react';
+
 function NavButton({ linkTo, children }) {
     const navigate = useNavigate();
     return (
@@ -10,7 +12,51 @@ function NavButton({ linkTo, children }) {
         </>
     );
 }
+function MenuList({ toggle }) {
+    if (!toggle) {
+        return null;
+    }
+    return (
+        <div className="hidden w-full md:flex md:items-center md:w-auto " id="menu">
+            <ul
+                className="
+              text-base text-gray-700
+              pt-4
+              md:flex
+              md:justify-between
+              md:pt-0"
+            >
+                <li>
+                    <a classname="md:p-4 py-2 block hover:text-purple-400" href="#">
+                        Features
+                    </a>
+                </li>
+                <li>
+                    <a className="md:p-4 py-2 block hover:text-purple-400" href="#">
+                        Pricing
+                    </a>
+                </li>
+                <li>
+                    <a className="md:p-4 py-2 block hover:text-purple-400" href="#">
+                        Customers
+                    </a>
+                </li>
+                <li>
+                    <a className="md:p-4 py-2 block hover:text-purple-400" href="#">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="#">
+                        Sign Up
+                    </a>
+                </li>
+            </ul>
+        </div>
+    );
+}
 const Header = () => {
+    const [toggle, setToggle] = useState(true);
     return (
         <header>
             <nav
@@ -65,16 +111,19 @@ const Header = () => {
                         </svg>
                     </Link>
                 </div>
-                <svg
-                    xmlns="<http://www.w3.org/2000/svg>"
-                    id="menu-button"
-                    class="h-6 w-6 cursor-pointer md:hidden block"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                >
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
+                <button onClick={setToggle}>
+                    <svg
+                        xmlns="<http://www.w3.org/2000/svg>"
+                        id="menu-button"
+                        className="h-6 w-6 cursor-pointer md:hidden block"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <MenuList toggle={false} />
             </nav>
         </header>
     );
