@@ -12,20 +12,19 @@ const Header = ({ navMaxHeight, headerRef }) => {
         <header ref={headerRef} className="sticky top-0 z-50 w-full" style={{ height: `clamp(${navMaxHeight}vh, 100%)` }}>
             <nav
                 className={`
-          grid
-          grid-cols-[1fr,auto]
-          items-center
-          justify-between
-          w-full
-          py-4
-          md:py-0
-          px-4
-          text-lg text-gray-700
-          bg-white
-          ${showDropdown ? 'grid-rows-[auto,1fr]' : ''}
-        `}
+            flex flex-wrap
+            items-center
+            justify-between
+            w-full
+            py-4
+            md:py-0
+            px-4
+            text-lg text-gray-700
+            bg-white
+            ${showDropdown ? 'flex-col items-stretch' : ''}
+          `}
             >
-                <div id="logo" className="col-start-1">
+                <div id="logo">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="150" height="32.125" viewBox="0 0 150 32.125">
                             <g id="Group_330" data-name="Group 330" transform="translate(-251.1 457.654)">
@@ -63,24 +62,37 @@ const Header = ({ navMaxHeight, headerRef }) => {
                         </svg>
                     </a>
                 </div>
-                <div className="col-start-2">
-                    <button className="md:hidden" onClick={handleToggleDropdown} aria-label="Toggle navigation menu">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 cursor-pointer md:hidden block"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
+
+                <button className="md:hidden flex-shrink-0" onClick={handleToggleDropdown} aria-label="Toggle menu">
+                    {/* Button content */}
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-6 w-6 cursor-pointer md:hidden block"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                <div
+                    id="menu"
+                    className={`
+            ${showDropdown ? 'flex flex-col w-full' : 'hidden md:flex'}
+            md:flex-row
+            md:items-center
+            md:w-auto
+            md:ml-auto
+          `}
+                >
+                    {/* Menu items */}
                     <ul
-                        className={`
-              md:flex
-              md:flex-row
-              ${showDropdown ? 'flex flex-col items-stretch' : 'hidden'}
-            `}
+                        className="
+                            pt-4
+                            text-base text-gray-700
+                            md:flex
+                            md:justify-between 
+                            md:pt-0"
                     >
                         <li>
                             <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">

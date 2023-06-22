@@ -1,4 +1,10 @@
-@import-sanitize;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .text-themeOrange,
+    .text-themeOrange:hover {
+        color: #fca311;
+    }
+}
