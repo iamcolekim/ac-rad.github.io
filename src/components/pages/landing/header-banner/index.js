@@ -84,27 +84,32 @@ const Header = ({ navMaxHeight, headerRef }) => {
                     >
                         <li>
                             <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Features
+                                Project Information
                             </a>
                         </li>
                         <li>
                             <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Pricing
+                                Mission
                             </a>
                         </li>
                         <li>
                             <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Customers
+                                News
                             </a>
                         </li>
                         <li>
                             <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Blog
+                                Papers
                             </a>
                         </li>
                         <li>
                             <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Sign Up
+                                Media
+                            </a>
+                        </li>
+                        <li>
+                            <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
+                                Teams
                             </a>
                         </li>
                     </ul>
