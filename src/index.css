@@ -3,8 +3,19 @@
 @tailwind utilities;
 
 @layer components {
+    /*Palette: Black, White, Silver, Orange, Navy*/
     .text-themeOrange,
     .text-themeOrange:hover {
         color: #fca311;
+    }
+
+    .text-themeNavy,
+    .text-themeNavy:hover {
+        color: #14213d;
+    }
+
+    .text-themeSilver,
+    .text-themeSilver:hover {
+        color: #e5e5e5;
     }
 }
