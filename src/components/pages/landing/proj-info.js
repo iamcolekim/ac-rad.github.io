@@ -3,7 +3,7 @@ import React from 'react';
 const ProjInfo = () => {
     return (
         <>
-            <section>Project Information</section>
+            <section id="projInfo">Project Information</section>
         </>
     );
 };

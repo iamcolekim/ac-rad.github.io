@@ -3,7 +3,7 @@ import React from 'react';
 const News = () => {
     return (
         <>
-            <section>News</section>
+            <section id="news">News</section>
         </>
     );
 };

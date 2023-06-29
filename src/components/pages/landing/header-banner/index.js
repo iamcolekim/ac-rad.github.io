@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Header = ({ navMaxHeight, headerRef }) => {
     const [showDropdown, setShowDropdown] = useState(false);
 
     const handleToggleDropdown = () => {
         setShowDropdown(!showDropdown);
+    };
+    const closeDropdown = () => {
+        setShowDropdown(false);
     };
 
     return (
@@ -26,7 +29,7 @@ const Header = ({ navMaxHeight, headerRef }) => {
         `}
             >
                 <div id="logo" className="col-start-1">
-                    <a href="#">
+                    <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeDropdown}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="150" height="32.125" viewBox="0 0 150 32.125">
                             <g id="Group_330" data-name="Group 330" transform="translate(-251.1 457.654)">
                                 <g id="Group_329" data-name="Group 329" transform="translate(251.1 -457.654)">
@@ -61,7 +64,7 @@ const Header = ({ navMaxHeight, headerRef }) => {
                                 </g>
                             </g>
                         </svg>
-                    </a>
+                    </Link>
                 </div>
                 <div className="col-start-2">
                     <button className="md:hidden" onClick={handleToggleDropdown} aria-label="Toggle navigation menu">
@@ -83,34 +86,39 @@ const Header = ({ navMaxHeight, headerRef }) => {
             `}
                     >
                         <li>
-                            <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Project Information
-                            </a>
+                            <Link to="home" spy={true} smooth={true} offset={-1 * navMaxHeight - 50} duration={500} onClick={closeDropdown}>
+                                <span className="md:p-4 py-2 block hover:text-themeOrange">Home</span>
+                            </Link>
                         </li>
                         <li>
-                            <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Mission
-                            </a>
+                            <Link to="projInfo" spy={true} smooth={true} offset={-1 * navMaxHeight - 50} duration={500} onClick={closeDropdown}>
+                                <span className="md:p-4 py-2 block hover:text-themeOrange">About</span>
+                            </Link>
                         </li>
                         <li>
-                            <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                News
-                            </a>
+                            <Link to="missions" spy={true} smooth={true} offset={-1 * navMaxHeight - 50} duration={500} onClick={closeDropdown}>
+                                <span className="md:p-4 py-2 block hover:text-themeOrange">Missions</span>
+                            </Link>
                         </li>
                         <li>
-                            <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Papers
-                            </a>
+                            <Link to="news" spy={true} smooth={true} offset={-1 * navMaxHeight - 50} duration={500} onClick={closeDropdown}>
+                                <span className="md:p-4 py-2 block hover:text-themeOrange">News</span>
+                            </Link>
                         </li>
                         <li>
-                            <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Media
-                            </a>
+                            <Link to="papers" spy={true} smooth={true} offset={-1 * navMaxHeight - 50} duration={500} onClick={closeDropdown}>
+                                <span className="md:p-4 py-2 block hover:text-themeOrange">Papers</span>
+                            </Link>
                         </li>
                         <li>
-                            <a className="md:p-4 py-2 block hover:text-themeOrange" href="#">
-                                Teams
-                            </a>
+                            <Link to="media" spy={true} smooth={true} offset={-1 * navMaxHeight - 50} duration={500} onClick={closeDropdown}>
+                                <span className="md:p-4 py-2 block hover:text-themeOrange">Media</span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="teams" spy={true} smooth={true} offset={-1 * navMaxHeight - 50} duration={500} onClick={closeDropdown}>
+                                <span className="md:p-4 py-2 block hover:text-themeOrange">Teams</span>
+                            </Link>
                         </li>
                     </ul>
                 </div>
