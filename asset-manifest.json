@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/ac-rad.github.io/static/css/main.c25e583b.css",
-    "main.js": "/ac-rad.github.io/static/js/main.738f9ad6.js",
+    "main.css": "/ac-rad.github.io/static/css/main.63fe471d.css",
+    "main.js": "/ac-rad.github.io/static/js/main.7ba427c1.js",
     "static/js/787.03647518.chunk.js": "/ac-rad.github.io/static/js/787.03647518.chunk.js",
+    "static/media/banner_video.mp4": "/ac-rad.github.io/static/media/banner_video.0d4fd5f9c42191b45fb6.mp4",
+    "static/media/Andrew Ilersich.png": "/ac-rad.github.io/static/media/Andrew Ilersich.864fddc0fa863f928490.png",
+    "static/media/Irwin Ngo.png": "/ac-rad.github.io/static/media/Irwin Ngo.a4126d7c8e72d1d96608.png",
+    "static/media/Parth Dua.jpg": "/ac-rad.github.io/static/media/Parth Dua.7395d45382079b21d855.jpg",
+    "static/media/Ghamr Saeed.jpg": "/ac-rad.github.io/static/media/Ghamr Saeed.6420b73427bba9a3985c.jpg",
+    "static/media/Ling Bi.jpg": "/ac-rad.github.io/static/media/Ling Bi.a783f67753b690e48abb.jpg",
+    "static/media/linkedin.png": "/ac-rad.github.io/static/media/linkedin.b1bebb391a157454d569.png",
+    "static/media/Ben Goodchild.JPG": "/ac-rad.github.io/static/media/Ben Goodchild.60f7ea9b74c0cd3f61ec.JPG",
+    "static/media/Torin Anderson.jpg": "/ac-rad.github.io/static/media/Torin Anderson.c4b837adf206a6f17cfa.jpg",
+    "static/media/world.png": "/ac-rad.github.io/static/media/world.a32bd8b1560dc8905497.png",
+    "static/media/utoph-icon.png": "/ac-rad.github.io/static/media/utoph-icon.cc25773ee35205fd47fe.png",
     "index.html": "/ac-rad.github.io/index.html",
-    "main.c25e583b.css.map": "/ac-rad.github.io/static/css/main.c25e583b.css.map",
-    "main.738f9ad6.js.map": "/ac-rad.github.io/static/js/main.738f9ad6.js.map",
+    "main.63fe471d.css.map": "/ac-rad.github.io/static/css/main.63fe471d.css.map",
+    "main.7ba427c1.js.map": "/ac-rad.github.io/static/js/main.7ba427c1.js.map",
     "787.03647518.chunk.js.map": "/ac-rad.github.io/static/js/787.03647518.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c25e583b.css",
-    "static/js/main.738f9ad6.js"
+    "static/css/main.63fe471d.css",
+    "static/js/main.7ba427c1.js"
   ]
 }
