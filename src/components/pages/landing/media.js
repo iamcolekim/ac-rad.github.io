@@ -3,7 +3,7 @@ import React from 'react';
 const Media = () => {
     return (
         <>
-            <section>Media</section>
+            <section id="media">Media</section>
         </>
     );
 };

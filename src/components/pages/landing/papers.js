@@ -2,7 +2,7 @@ import React from 'react';
 const Papers = () => {
     return (
         <>
-            <section>Papers</section>
+            <section id="papers">Papers</section>
         </>
     );
 };
