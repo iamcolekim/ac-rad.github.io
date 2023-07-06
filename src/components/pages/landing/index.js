@@ -9,10 +9,10 @@ import videoBg from '../../../assets/banner_video.mp4';
 import Header from './header-banner/index.js';
 import ProjInfo from './proj-info';
 import Missions from './missions';
-import News from './news';
+import News from './news/news';
 import Papers from './papers';
 import Media from './media';
-import Teams from './teams';
+import Teams from './teams/index.js';
 
 const Landing = () => {
     //for handling the click states for the display of the menu
