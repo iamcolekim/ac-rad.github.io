@@ -3,6 +3,7 @@ This ReactJS project uses [TailwindCSS](https://tailwindcss.com) + [daisyUI](htt
 It also uses [gh-pages](https://www.npmjs.com/package/gh-pages) for static ui deployment to [Github Pages](https://pages.github.com).
 
 ReactJS Dependencies include [react-router-dom](https://www.npmjs.com/package/react-router-dom) and [react-scroll](https://www.npmjs.com/package/react-scroll). **Caution: clashing between these dependencies may occur, but should be manageable with careful and thoughtful import of components/hooks**
+
 To installl all dependencies from the `node_modules` folder, run `npm install`.
 
 # Getting Started with ReactJS
