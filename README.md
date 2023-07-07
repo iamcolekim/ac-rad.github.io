@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Frameworks and Dependencies used
+This ReactJS project uses [TailwindCSS](https://tailwindcss.com) + [daisyUI](https://daisyui.com) for CSS frameworks.
+It also uses [gh-pages](https://www.npmjs.com/package/gh-pages) for static ui deployment to [Github Pages](https://pages.github.com).
+To installl all dependencies from the `node_modules` folder, run `npm install`.
+
+# Getting Started with ReactJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts 
 
 In the project directory, you can run:
 
