@@ -1,16 +1,43 @@
+#teams {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#teams > * > :first-child {
+  margin-bottom: 2rem;
+}
+
+
+#teams > * > * {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: center;
+}
+
+#teams > * > * > * > * {
+  margin: 0 10px 0 10px;
+}
+
 .teamPageCard {
   display: inline-block;
   text-align: center;
   width: 250px;
   height: fit-content;
+  background: linear-gradient(0.25turn, #39484e, #24424c, #313952);
+  padding: 1.5%;
+  border-radius: 10px;
+  color-scheme: dark;
+  
 }
 
 .teamPageCardImg {
   border-radius: 100px;
   width: 200px;
   height: 200px;
-  margin-bottom: 10px;
   object-fit: cover;
+  margin: 0;
 }
 
 .teamPageCardName {
@@ -50,49 +77,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* here for the different card styles */
-
-.teamPageCardStyle1 {
-  /*background: linear-gradient(0.25turn, #c5dfea, #a9d0eb, #a2b5f3);*/
-  color: black;
-}
-
-.teamPageCardStyle2 {
-  /*background-color: #e0e0e0;*/
-  color: white;
-}
-
-
-
-
-/*
-.teamPageCardStyle1 .teamPageCardLink1 {
-  background-color: white;
-}
-.teamPageCardStyle1 .teamPageCardLink1:hover {
-  background-color: #e0e0e0;
-}
-.teamPageCardStyle1 .teamPageCardLink2 {
-  background-color: white;
-}
-.teamPageCardStyle1 .teamPageCardLink2:hover {
-  background-color: #e0e0e0;
-}
-
-.teamPageCardStyle2 .teamPageCardLink1 {
-  background-color: black;
-}
-.teamPageCardStyle2 .teamPageCardLink1:hover {
-  background-color: #606060;
-}
-.teamPageCardStyle2 .teamPageCardLink2 {
-  background-color: black;
-}
-.teamPageCardStyle2 .teamPageCardLink2:hover {
-  background-color: #606060;
-}
-*/
 
 @media only screen and (max-width: 900px) {
   .teamPageCardName {

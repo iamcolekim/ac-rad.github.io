@@ -28,13 +28,17 @@ const Landing = () => {
     useEffect(() => {
         const headerHeight = headerRef.current.clientHeight;
         const videoContentHeight = videoContentRef.current.clientHeight;
-
+      
         const calculatedNavMaxHeight = Math.min(10, headerHeight);
-        const calculatedVideoMaxHeight = Math.min(10, videoContentHeight);
-
+        const calculatedVideoMaxHeight = Math.min(
+          videoContentHeight - calculatedNavMaxHeight,
+          videoContentHeight
+        );
+      
         setNavMaxHeight(calculatedNavMaxHeight);
         setVideoMaxHeight(calculatedVideoMaxHeight);
-    }, []);
+      }, []);
+      
 
     return (
         <>
@@ -49,12 +53,15 @@ const Landing = () => {
                         <p>Scroll Down</p>
                     </div>
                 </div>
+                {/* <nav className="flex flex-row space-x-1"> */}
                 <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>
-                    Test
+                    Test 
                 </Link>
                 <ProjInfo />
                 <Missions />
+                
                 <News />
+                {/* </nav> */}
                 <Papers />
                 <Media />
                 <Teams />

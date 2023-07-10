@@ -9,7 +9,6 @@ const currentExecCards = CurrentExecInfo.map((memberData) => {
     return (
         <Card
             card={{
-                className: 'teamPageCardStyle1',
                 image: memberData.image,
                 name: memberData.name,
                 position: memberData.position,
@@ -25,7 +24,6 @@ const memberCards = MemberCardInfo.map((memberData) => {
     return (
         <Card
             card={{
-                className: 'teamPageCardStyle1',
                 image: memberData.image,
                 name: memberData.name,
                 position: memberData.position,
@@ -41,7 +39,6 @@ const formerExecCards = FormerExecutiveCardInfo.map((memberData) => {
     return (
         <Card
             card={{
-                className: 'teamPageCardStyle2',
                 image: memberData.image,
                 name: memberData.name,
                 position: memberData.position,
@@ -57,31 +54,24 @@ const index = () => {
     return (
         <div id="teams">
             <div className="ExecCardContainer">
-                <div className="CurrentExecutiveTitleWrapper">
                     <div className="ExecTitleBorderContainer">
-                        <p className="BlackHeader">Current Executives</p>
+                        <p className="blackHeader">Current Executives</p>
                     </div>
-                </div>
                 <div className="CardGridContainer">
                     <CardGrid cards={currentExecCards} />
                 </div>
             </div>
             <div className="GeneralCardContainer">
-                <div className="GeneralTitleWrapper">
-                    <div className="GeneralMemberBorderContainer">
-                        <p className="BlackHeader">Current Members</p>
-                    </div>
+                <div className="GeneralMemberBorderContainer">
+                    <p className="BlackHeader">Current Members</p>
                 </div>
                 <div className="CardGridContainer">
                     <CardGrid cards={memberCards} />
                 </div>
             </div>
             <div className="FormerCardContainer">
-                <div className="shapedividers_com-1463"></div>
-                <div className="FormerTitleWrapper">
-                    <div className="FormerExecBorderContainer">
-                        <p className="WhiteHeader">Former Executives</p>
-                    </div>
+                <div className="FormerExecBorderContainer">
+                    <p className="WhiteHeader">Former Executives</p>
                 </div>
                 <div className="CardGridContainer">
                     <CardGrid cards={formerExecCards} />

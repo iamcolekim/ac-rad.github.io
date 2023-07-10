@@ -8,4 +8,4 @@ const About = () => {
     );
 };
 
-export default Error;
+export default About;
