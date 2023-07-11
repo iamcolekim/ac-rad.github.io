@@ -1,13 +1,12 @@
-import AndrewIlersichImage from '../images/Andrew Ilersich.png';
+import JohnDoe from '../images/John Doe.png';
 
 
 const CurrentExecInfo = [
     {
-        name: 'Andrew Ilersich',
-        image: AndrewIlersichImage,
+        name: 'Jane Doe',
+        image: JohnDoe,
         position: 'President',
         discipline: 'Aerospace Engineer, MAsc Student',
-        linkedin: '',
         world: '',
     },
 ]

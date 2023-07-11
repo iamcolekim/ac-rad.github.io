@@ -1,23 +1,18 @@
-import JohnDoe from '../images/utoph-icon.png';
-import BenGoodchildImage from '../images/Ben Goodchild.JPG';
-import TorinAndersonImage from '../images/Torin Anderson.jpg';
-
+import JohnDoe from '../images/John Doe.png';
 
 export const FormerExecutiveCardInfo = [
     {
-        name: 'Ben Goodchild',
-        image: BenGoodchildImage,
+        name: 'John Doe',
+        image: JohnDoe,
         position: 'Web Developer',
         discipline: 'Electrical Engineer, 2T0+PEY',
-        linkedin: '',
         world: '',
     },
     {
-        name: 'Torin Anderson',
-        image: TorinAndersonImage,
+        name: 'Jane Doe',
+        image: JohnDoe,
         position: 'Outreach',
         discipline: 'Electrical Engineer, 2T0+PEY',
-        linkedin: '',
         world: '',
     },
 ]

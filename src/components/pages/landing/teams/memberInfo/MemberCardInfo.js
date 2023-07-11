@@ -1,42 +1,33 @@
-import JohnDoe from '../images/utoph-icon.png';
-
-import GhamrSaeedImage from '../images/Ghamr Saeed.jpg';
-import IrwinNgoImage from '../images/Irwin Ngo.png';
-import ParthDuaImage from '../images/Parth Dua.jpg';
-import LingBiImage from '../images/Ling Bi.jpg';
+import JohnDoe from '../images/John Doe.png';
 
 export const MemberCardInfo = [
 
     {
-        name: 'Ghamr Saeed',
-        image: GhamrSaeedImage,
+        name: 'John Doe',
+        image: JohnDoe,
         position: 'Team Member',
         discipline: 'Electrical Engineering, 2T3',
-        linkedin: '',
         world: '',
     },
     {
-        name: 'Irwin Ngo',
-        image: IrwinNgoImage,
+        name: 'Jane Doe',
+        image: JohnDoe,
         position: 'Team Member',
         discipline: 'Computer Engineer, 2T5',
-        linkedin: '',
         world: '',
     },
     {
-        name: 'Parth Dua',
-        image: ParthDuaImage,
+        name: 'John Doe',
+        image: JohnDoe,
         position: 'Team Member',
         discipline: 'Engineering Science, 2T4',
-        linkedin: '',
         world: '',
     },
     {
-        name: 'Ling Bi',
-        image: LingBiImage,
+        name: 'Jane Doe',
+        image: JohnDoe,
         position: 'Team Member',
         discipline: 'Design & Illustration, 1T9',
-        linkedin: '',
         world: '',
     }
 ]
