@@ -9,7 +9,7 @@ import videoBg from '../../../assets/banner_video.mp4';
 import Header from './header-banner/index.js';
 import ProjInfo from './proj-info';
 import Missions from './missions';
-import News from './news/news';
+import News from './news/index.js';
 import Papers from './papers';
 import Media from './media';
 import Teams from './teams/index.js';
@@ -53,15 +53,10 @@ const Landing = () => {
                         <p>Scroll Down</p>
                     </div>
                 </div>
-                {/* <nav className="flex flex-row space-x-1"> */}
-                <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>
-                    Test 
-                </Link>
                 <ProjInfo />
                 <Missions />
                 
                 <News />
-                {/* </nav> */}
                 <Papers />
                 <Media />
                 <Teams />

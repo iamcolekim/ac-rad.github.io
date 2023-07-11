@@ -13,8 +13,6 @@ const currentExecCards = CurrentExecInfo.map((memberData) => {
                 name: memberData.name,
                 position: memberData.position,
                 discipline: memberData.discipline,
-                link1: memberData.linkedin,
-                link2: memberData.world,
             }}
         />
     );
@@ -28,8 +26,6 @@ const memberCards = MemberCardInfo.map((memberData) => {
                 name: memberData.name,
                 position: memberData.position,
                 discipline: memberData.discipline,
-                link1: memberData.linkedin,
-                link2: memberData.world,
             }}
         />
     );
@@ -43,8 +39,6 @@ const formerExecCards = FormerExecutiveCardInfo.map((memberData) => {
                 name: memberData.name,
                 position: memberData.position,
                 discipline: memberData.discipline,
-                link1: memberData.linkedin,
-                link2: memberData.world,
             }}
         />
     );

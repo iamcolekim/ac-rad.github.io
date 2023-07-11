@@ -9,9 +9,6 @@ const ExecutiveCard = ( { cardInfo }) => {
                     <h3>Discipline: {card.discipline}</h3>
                     <h3>Graduation Year: {card.gradYear}</h3>
                     <div className="teamPageIconContainer">
-                        <a href={card.linkedin}>
-                            <div className="teamPageLinkedinIcon"/>
-                        </a>
                         <a href={card.world}>
                         <div className="teamPageWorldIcon"/>
                         </a>

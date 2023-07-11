@@ -1,63 +1,52 @@
-import Andrew from '../images/AndrewIlersich.png';
-import Caulan from '../images/CaulanRupke.png';
-import Michael from '../images/MichaelLawee.png';
-import Torin from '../images/TorinAnderson.png';
-import Ben from '../images/BenGoodchild.png';
-import Anthony from '../images/AnthonyKwon.png';
+import JohnDoe from '../images/John Doe.png';
 
 export const ExecutiveCardInfo = [
     {
-        name: 'Andrew Ilersich',
+        name: 'John Doe',
         role: 'President',
         discipline: 'N/A',
         gradYear: 'N/A',
-        image: Andrew,
-        linkedin: '',
+        image: JohnDoe,
         world: '',
     },
     {
-        name: 'Caulan Rupke',
+        name: 'Jane Doe',
         role: 'Co-Hardware',
         discipline: 'N/A',
         gradYear: 'N/A',
-        image: Caulan,
-        linkedin: '',
+        image: JohnDoe,
         world: '',
     },
     {
-        name: 'Michael Lawee',
+        name: 'Jane Doe',
         role: 'Co-Hardware',
         discipline: 'N/A',
         gradYear: 'N/A',
-        image: Michael,
-        linkedin: '',
+        image: JohnDoe,
         world: '',
     },
     {
-        name: 'Torin Anderson',
+        name: 'Jane Doe',
         role: 'Outreach',
         discipline: 'N/A',
         gradYear: 'N/A',
-        image: Torin,
-        linkedin: '',
+        image: JohnDoe,
         world: '',
     },
     {
-        name: 'Ben Goodchild',
+        name: 'Jane Doe',
         role: 'Web Dev',
         discipline: 'N/A',
         gradYear: 'N/A',
-        image: Ben,
-        linkedin: '',
+        image: JohnDoe,
         world: '',
     },
     {
-        name: 'Anthony Kwon',
+        name: 'Jane Doe',
         role: 'Audio',
         discipline: 'N/A',
         gradYear: 'N/A',
-        image: Anthony,
-        linkedin: '',
+        image: JohnDoe,
         world: '',
     }
 ];
