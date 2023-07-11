@@ -1,5 +1,5 @@
 {
-  "homepage": "http://iamcolekim.github.io/ac-rad.github.io/",
+  "homepage": "https://seba-r.github.io/ac-rad.github.io/",
   "name": "ac-rad.github.io",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "web-vitals": "^3.3.2"
   },
